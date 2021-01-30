@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Mirrored from demos.webicode.com/html/social-net/companies.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 May 2019 22:51:51 GMT -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="M_Adnan">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<title>Social Networking Connecting HTML5 Template</title>
+
+<!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="css/main.css" rel="stylesheet">
+<link href="fonts/flaticon.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+
+<!-- fontawesome  -->
+<link href="css/all.min.css" rel="stylesheet">
+
+<!-- JavaScripts -->
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<style>
+  .button {
+  background-color:white; /* Green */
+  border: none;
+  color:black;
+  padding: 1px 32px;
+  text-align:justify;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+  #a-page div.left_nav.browseBox {
+            font-family: arial,helvetica,sans-serif;
+        }
+        #a-page div.left_nav.browseBox ul {
+            margin: 0 0 10px 10px;
+            padding: 0px;
+        }
+        #a-page div.left_nav.browseBox ul li {
+            list-style-type: none;
+            line-height: 17px;
+        }
+        #a-page div.left_nav.browseBox h3 {
+            font-size: 13px;
+            padding: 0;
+            color: #000;
+        }
+        #a-page div.left_nav.browseBox h2 {
+            display: none;
+        }
+        #a-page div.left_nav.browseBox p {
+            margin-left: 8px;
+        }
+        #a-page div.left_nav.browseBox .carat {
+            font-weight: bold;
+            font-size: 120%;
+            font-family: verdana,arial,helvetica,sans-serif;
+            color: #E47911;
+            margin-right: 0.2em;
+        }
+        #a-page div.left_nav.browseBox a, div.left_nav p a {
+            color: #333;
+            font-size: 12px;
+            margin-left: 0;
+            text-decoration: none;
+        }
+        #a-page div.left_nav.browseBox a:hover, div.left_nav p a:hover {
+            text-decoration: none;
+            background-color: transparent;
+            color: #e47911;
+        }
+  body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: ;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 50px; /* Same as the width of the sidenav */
+  font-size: 16px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 50px;}
+  .sidenav a {font-size: 18px;}
+}
+    #grad1 {
+   margin-bottom: 40px;
+  height: 80px;
+  background-image: linear-gradient(to right, red, yellow); 
+}
+
+#panel, #flip {
+  width:200px;
+  padding: 5px;
+  text-align: justify;
+  background-color: gainsboro;
+  border: solid 1px white  ;
+}
+
+#panel {
+  margin-right: 200px;
+  padding: 100px;
+  display: none;
+}
+.dropbtn {
+  margin-left: 30px;
+  background-color: rgb(233, 233, 10);
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+  size:40px;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color:rgb(14, 235, 14);}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: yellowgreen;}
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+    </style> 
+    
+
+</head>
+<body>
+
+<!-- Wrap -->
+<div id="wrap"> 
+  
+  <!-- header -->
+  <header class="sticky">
+    <div class="container"> 
+        
+      
+      <!-- Logo -->
+      <div class="logo"> <a href="index-2.html"><img class="img-responsive" src="images/logo-dark.png" alt="" ></a> </div>
+      <nav class="navbar ownmenu navbar-expand-lg" id="nav-resposive">
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse" id="navbarNav" data-parent="#nav-resposive">
+          <ul class="nav">
+            <li class="active"> <a href="index-2.html"><b>Home</b></a> </li>
+            <li class="dropdown"> <a href="#." class="dropdown-toggle" data-toggle="dropdown"><b>Pages</b></a>
+              <ul class="dropdown-menu">
+                <li> <a href="index-2.html">Home </a> </li>
+                <li> <a href="about.html">About </a> </li>
+                <li> <a href="pricing.html">Pricing </a> </li>
+                <li> <a href="login-register.html">Login / Register </a> </li>
+                <li> <a href="companies.html">Companies</a> </li>
+                <li> <a href="companies-detail.html">Companies Detail </a> </li>
+                <li> <a href="professionals.html">Professional </a> </li>
+                <li> <a href="professional-details.html">Professional Details </a> </li>
+                <li> <a href="job-board.html">Job Board </a> </li>
+                <li> <a href="job-board-details.html">Job Board Details</a> </li>
+                <li class="sub-menu"> <a href="#.">2nd Level Menu </a>
+                  <ul class="dropdown-menu sec-level">
+                    <li> <a href="about.html">About </a> </li>
+                    <li> <a href="pricing.html">Pricing </a> </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li> <a href="companies.html"><b>Companies</b></a> </li>
+            <li> <a href="pricing.html"><b>Pricing</b> </a> </li>
+            <!-- Two Link Option -->
+            <li class="dropdown"> <a href="professionals.html" class="dropdown-toggle" data-toggle="dropdown"><b>Professionals</b></a>
+              <div class="dropdown-menu two-option">
+                <div class="row">
+                  <ul class="col-sm-6">
+                    <li> <a href="index-2.html">Home </a> </li>
+                    <li> <a href="about.html">About </a> </li>
+                    <li> <a href="services.html">Services </a> </li>
+                    <li> <a href="companies.html">Companies</a> </li>
+                    <li> <a href="companies-detail.html">Companies Detail </a> </li>
+                    <li> <a href="professionals.html">Professionals </a> </li>
+                    <li> <a href="job-board.html">Job Board </a> </li>
+                  </ul>
+                  <ul class="col-sm-6">
+                    <li> <a href="index-2.html">Home </a> </li>
+                    <li> <a href="about.html">About </a> </li>
+                    <li> <a href="services.html">Services </a> </li>
+                    <li> <a href="companies.html">Companies</a> </li>
+                    <li> <a href="companies-detail.html">Companies Detail </a> </li>
+                    <li> <a href="professionals.html">Professionals</a> </li>
+                    <li> <a href="job-board.html">Job Board </a> </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li> <a href="contact.html"><b>Contact</b></a> </li>
+          </ul>
+        </div>
+        
+        <!-- Nav Right -->
+        <div class="nav-right">
+          <button class="social-toggler collapsed" type="button" data-toggle="collapse" data-target="#socialNav" aria-controls="socialNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="fa fa-share-alt"></span> </button>
+          <div class="collapse navbar-collapse navbar-expand-lg" id="socialNav" data-parent="#nav-resposive">
+            <div class="social_icons">
+              <ul>
+                <li><a href="#."><i class="fab fa-whatsapp"></i></a></li>
+                <li><a href="#."><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#."><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#."><i class="fab fa-google-plus-g"></i></a></li>
+                <li><a href="#."><i class="fab fa-linkedin-in"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        
+      </nav>
+    </div>
+  </div>
+    <div class="clearfix">
+        <div id="grad1">
+        </div>
+    </div>
+    
+  </header>
+  
+  <!-- Content -->
+  
+
+    <!-- Banner -->
+    
+          
+            
+
+      <!-- Papular Professionals -->
+      
+           
+      
+              <!-- filter Btns -->
+             
+              <!-- Search -->
+              
+              
+<div class="container-fluid">
+  <div class="row">
+  
+    <div class="col-sm-3"style="background-color:graY;">
+      <div aria-label="Left Navigation" class="a-section s-padding-right-mini s-border-right" role="region">
+      <div class="a-section a-spacing-none" role="directory">
+      <!--wlbb-->
+      <div class="left_nav browseBox">
+        
+        <button class="button"><b>agriculture and food</b></button>
+        <br>        <br>
+        <button class="button"><b>apparel,textiles & accesories</b></button>
+        <br>        <br>
+        <button class="button"><b>auto and transport</b></button>
+        <br>        <br>
+        <button class="button"><b>bags,shoes & accesories</b></button>
+        <br>        <br>
+        <button class="button"><b>Electronics</b></button>
+        <br>        <br>
+        <button class="button"><b>Electrical Equipment , Components & Telecoms</b></button>
+        <br>        <br>
+        <button class="button"><b>Gifts, Sports & Toys</b></button>
+        <br>        <br>
+        <button class="button"><b>Health & Beauty</b></button><br>        <br>
+        <button class="button"><b>Home, Lights & Construction</b></button><br>        <br>
+        <button class="button"><b>Machinery, Industrial Parts & Tools</b></button><br>        <br>
+        <button class="button"><b>Metallurgy, Chemicals, Rubber & Plastics</b></button><br>        <br>
+        <button class="button"><b>Packaging, Advertising & Office</b></button><br>  <br>
+        
+     
+      
+      
+</div>
+
+<h6><b>Show results for</b></h6>
+</span> Watches</span>
+</span></span></label></div></span></span></li></div></ul><br><h6><b>Fashion</b></h6>
+<div aria-live="polite" class="a-row a-expander-container a-expander-extend-container"> 
+<li><span class="a-list-item"><span class="a-declarative" data-action="s-ref-selected">
+<div data-a-input-name="s-ref-checkbox-11142592031" class="a-checkbox s-ref-link-cursor a-spacing-none">
+<label><input type="checkbox" name="s-ref-checkbox-11142592031" value="false"><i class="a-icon a-icon-checkbox">
+</i><span class="a-label a-checkbox-label">
+<span >Top Brands</span>
+</span>
+</label>
+</div>
+</span>
+</span>
+</li></div></ul>
+<h4>Pay On Delivery</h6>`
+    <span style="color:skyblue">(What's this?)</span>
+    </a></h4><ul class="a-unordered-list a-nostyle a-vertical a-spacing-base">
+      <div aria-live="polite" class="a-row a-expander-container a-expander-extend-container">
+    <div data-a-input-name="s-ref-checkbox-4931671031" class="a-checkbox s-ref-link-cursor a-spacing-none">
+      <label><input type="checkbox" name="s-ref-checkbox-4931671031" value="false"><i class="a-icon a-icon-checkbox"
+      ></i><span class="a-label a-checkbox-label"><span class="a-size-small a-color-base s-ref-text-link s-ref-link-cursor">
+       <h6> Eligible for Pay On Delivery</h6></span>
+        </span></label></div></span></span></li></div>
+        </ul>
+        <h4>Brands</h4>
+        <div aria-live="polite" class="a-row a-expander-container a-expander-extend-container">
+          <li><span class="a-list-item">
+            <div data-a-input-name="s-ref-checkbox-SWISSTONE" class="a-checkbox s-ref-link-cursor a-spacing-none">
+              <label><input type="checkbox" name="s-ref-checkbox-SWISSTONE" value="false">
+              <i class="a-icon a-icon-checkbox"></i>
+  <span class="a-label a-checkbox-label"><span>HOME ITERMS</span>
+</span></label></div></span></span></li>
+  <span class="a-list-item">
+<div data-a-input-name="s-ref-checkbox-Fastrack" class="a-checkbox s-ref-link-cursor a-spacing-none">
+  <label><input type="checkbox" name="s-ref-checkbox-Fastrack" value="false"><i class="a-icon a-icon-checkbox"></i>
+  <span class="a-label a-checkbox-label">
+<span class="a-size-small a-color-base s-ref-text-link s-ref-link-cursor">Fastrack</span>
+</span></label></div></span></span></li>
+<div data-a-input-name="s-ref-checkbox-Fogg" class="a-checkbox s-ref-link-cursor a-spacing-none">
+  <label><input type="checkbox" name="s-ref-checkbox-Fogg" value="false"><i class="a-icon a-icon-checkbox">
+ </i><span class="a-label a-checkbox-label"><span class="a-size-small a-color-base s-ref-text-link s-ref-link-cursor">
+    Fogg</span></span></label></span></span></li>
+      <span class="a-list-item">
+      <div data-a-input-name="s-ref-checkbox-Geneva" class="a-checkbox s-ref-link-cursor a-spacing-none">
+        <label><input type="checkbox" name="s-ref-checkbox-Geneva" value="false"><i class="a-icon a-icon-checkbox"></i>
+        <span class="a-label a-checkbox-label"><span class="a-size-small a-color-base s-ref-text-link s-ref-link-cursor">
+            Geneva</span></span></label></div></span></span></li>
+                <div data-a-input-name="s-ref-checkbox-howdy" class="a-checkbox s-ref-link-cursor a-spacing-none">
+        <label><input type="checkbox" name="s-ref-checkbox-howdy" value="false"><i class="a-icon a-icon-checkbox"></i>
+        <span class="a-label a-checkbox-label"><span class="a-size-small a-color-base s-ref-text-link s-ref-link-cursor">
+            hawdy</span></span></label></div></span></span></li>
+            <div data-a-input-name="s-ref-checkbox-Sonata" class="a-checkbox s-ref-link-cursor a-spacing-none">
+        <label><input type="checkbox" name="s-ref-checkbox-Sonata" value="false"><i class="a-icon a-icon-checkbox"></i>
+        <span class="a-label a-checkbox-label"><span class="a-size-small a-color-base s-ref-text-link s-ref-link-cursor">
+            Sonata</span></span></label></div></span></span></li>
+            <div data-a-input-name="s-ref-checkbox-fossil" class="a-checkbox s-ref-link-cursor a-spacing-none">
+        <label><input type="checkbox" name="s-ref-checkbox-fossil" value="false"><i class="a-icon a-icon-checkbox"></i>
+        <span class="a-label a-checkbox-label"><span class="a-size-small a-color-base s-ref-text-link s-ref-link-cursor">
+            fossil</span></span></label></div></span></span></li>
+<div data-a-input-name="s-ref-checkbox-SWISSTYLE" class="a-checkbox s-ref-link-cursor a-spacing-none">
+        <label><input type="checkbox" name="s-ref-checkbox-SWISSTYLE" value="false"><i class="a-icon a-icon-checkbox"></i>
+          <span class="a-label a-checkbox-label"><span class="a-size-small a-color-base s-ref-text-link s-ref-link-cursor">
+              SWISSTYLE </span></span></label></div></span></span></li>
+<div data-a-input-name="s-ref-checkbox-SKMEI" class="a-checkbox s-ref-link-cursor a-spacing-none">
+        <label><input type="checkbox" name="s-ref-checkbox-SKMEI" value="false"><i class="a-icon a-icon-checkbox"></i>
+        <span class="a-label a-checkbox-label"><span class="a-size-small a-color-base s-ref-text-link s-ref-link-cursor">
+            SKMEI</span></span></label></div></span></span></li>
+
+            <h6><b>Price</b></h6>
+<div aria-live="polite" class="a-row a-expander-container a-expander-extend-container">
+<li><span class="a-list-item"><span class="a-size-small a-color-base">Under ₹2,000</span></a></span></li><li>
+<span class="a-list-item">
+<span class="a-size-small a-color-base">₹2,000 - ₹5,000</span></a></span></li><li>
+<span class="a-list-item">
+<span class="a-size-small a-color-base">₹5,000 - ₹10,000</span></a></span></li><li><span class="a-list-item">
+<span class="a-size-small a-color-base">₹10,000 - ₹20,000</span></a></span></li><li><span class="a-list-item">
+<span class="a-size-small a-color-base">Over ₹20,000</span></a></span></li><li>
+<span class="a-list-item">
+<form method="get" action="/s/ref=lp_2563505031_nr_p_36_5">
+<input type="hidden" name="rnid" value="3439816031">
+<input type="hidden" name="rh" value="n:1350387031,n:!1350388031,n:2563505031">
+<input type="hidden" name="qid" value="1560252131">
+<input type="hidden" name="bbn" value="2563505031">
+<span >₹</span><input type="text" maxlength="9" id="low-price" placeholder="Min" name="low-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding" aria-label="Min">
+<span >₹</span><input type="text" maxlength="9" id="high-price" placeholder="Max" name="high-price" aria-label="Max">
+<span class="a-button a-spacing-top-mini a-button-base s-small-margin-left" id="a-autoid-4">
+<span class="a-button-inner">
+<input class="a-button-input" type="submit" value="Go" aria-labelledby="a-autoid-4-announce">
+<span class="a-button-text" aria-hidden="true" id="a-autoid-4-announce">
+</span></span></span></form></span></li></div>
+<h6>Discount</h6>
+<ul>10% off or more</ul>
+<ul>25% off or more</ul>
+<ul>35% off or more</ul>
+<ul>50% off or more</ul>
+<h6><b>display</b></h6>
+
+<form action="/action_page.php">
+  <input type="checkbox" name="analogue" value="number"> analogue<br>
+  <input type="checkbox" name="digital" value="digital"> digital<br>
+  <input type="checkbox" name="analouge-digital" value="analogue-digital">analogue digital<br>
+  
+  <input type="checkbox" name="chronograph" value="chronograph" checked>chronograph<br><br>
+  <h6><b>Availability</b></h6>
+  <input type="checkbox" name="include out of stock" value="include out of stock" checked>include out of stock<br><br>
+  
+</form>
+
+          
+</div></div></div>
+                <!-- Filter Details -->
+                <div class="col-sm-9">
+                <div class="inside-from">
+                      <form>
+                         
+                               
+                        
+                     
+                          <!-- Company Name -->
+                          
+                            <label>
+                                <select class="form-control"  style="width: 200px;">
+                                    <option>CoUNTRY</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>others</option>
+                              </select>
+                            </label>
+                          
+                          <!-- City -->
+                
+                            <label>
+                                <select class="form-control"style="width: 200px;">
+                                    <option>STATE</option>
+                                    
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>others</option>
+                              </select>
+                            </label>
+                          
+                          <!-- Select -->
+                          
+                            <label>
+                                <select class="form-control"style="width: 200px;">
+                                    <option>CITY</option>
+                                    
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>others</option>
+                              </select>
+                            </label>
+                          
+                          
+                            <button type="submit" class="btn"size="5">SEARCH</button>
+                            
+                                  <!-- filter -->
+                                      
+                                          
+                                       
+                                            
+                                  <div class="dropdown" style="float:right;">
+                                      <button class="dropbtn"><i class="fa fa-filter"></i>More Option</button>
+                                      <div class="dropdown-content">
+                                        <a href="#"style="background-color:yellow">ALL</a>
+                                        <a href="#">Companies</a>
+                                        <a href="#">coporate</a>
+                                        <a href="#">Information technology</a>
+                                        <a href="#">indiviual</a>
+                                        <a href="#">freelance</a>
+                                        <a href="#">agency</a>
+                                        
+                                      </div>
+                                    </div>
+                                       <!-- filter Btns -->
+                                          
+                  
+                
+                                  <!-- Filter Details -->
+                          
+                                          
+                          
+                             
+                          
+                         
+                      </form>
+                
+                    
+        
+    
+          <!-- Comapnies Iteam -->
+          <section class="cd-gallery">
+            <ul>
+              
+              <!-- Comapany List -->
+             
+              <li class="mix  coporate info-tech indiviual freelancer ">
+                <div class="com-inside">
+                  <div class="img-sec"> <img src="images/company-img-1.jpg" class="img-responsive" alt="" >
+                    <div class="hover-over">
+                      <div class="position-center-center"> <a href="#" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
+                      
+                      <div class="position-center-center" style="margin-top: 60px"> <a href="#" class="btn">became an advertiser</a></div>
+                
+                    </div>
+                  </div>
+                  <div class="txt-sec">
+                    <h5><a href="companies-detail.html"> Webicode </a></h5>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Comapany List -->
+              <li class="mix companies  info-tech indiviual freelancer ">
+                <div class="com-inside">
+                  <div class="img-sec"> <img src="images/company-img-2.jpg" class="img-responsive" alt="" >
+                    <div class="hover-over">
+                      <div class="position-center-center"> <a href="#" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
+                      <div class="position-center-center" style="margin-top: 60px"> <a href="#" class="btn">became an advertiser</a></div>
+                    </div>
+                  </div>
+                  <div class="txt-sec">
+                    <h5><a href="companies-detail.html"> M_Adnan </a></h5>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Comapany List -->
+              <li class="mix  coporate indiviual  agency">
+                <div class="com-inside">
+                  <div class="img-sec"> <img src="images/company-img-3.jpg" class="img-responsive" alt="" >
+                    <div class="hover-over">
+                    <div class="position-center-center"> <a href="#" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
+                    <div class="position-center-center" style="margin-top: 60px"> <a href="#" class="btn">became an advertiser</a></div>
+                  </div>
+                  </div>
+                  <div class="txt-sec">
+                    <h5><a href="companies-detail.html"> Daddy 4 Web </a></h5>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Comapany List -->
+              <li class="mix  coporate info-tech freelancer agency">
+                <div class="com-inside">
+                  <div class="img-sec"> <img src="images/company-img-4.jpg" class="img-responsive" alt="" >
+                    <div class="hover-over">
+                      <div class="position-center-center"> <a href="#" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
+                      <div class="position-center-center" style="margin-top: 60px"> <a href="#" class="btn">became an advertiser</a></div>
+                    </div>
+                  </div>
+                  <div class="txt-sec">
+                    <h5><a href="companies-detail.html">The Best Technology </a></h5>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Comapany List -->
+              <li class="mix companies coporate  ">
+                <div class="com-inside">
+                  <div class="img-sec"> <img src="images/company-img-5.jpg" class="img-responsive" alt="" >
+                    <div class="hover-over">
+                      <div class="position-center-center"> <a href="#" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
+                      <div class="position-center-center" style="margin-top: 60px"> <a href="#" class="btn">became an advertiser</a></div>
+                    </div>
+                  </div>
+                  <div class="txt-sec">
+                    <h5><a href="companies-detail.html"> Daddy 4 Web </a></h5>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Comapany List -->
+              <li class="mix info-tech indiviual freelancer agency">
+                <div class="com-inside">
+                  <div class="img-sec"> <img src="images/company-img-6.jpg" class="img-responsive" alt="" >
+                    <div class="hover-over">
+                      <div class="position-center-center"> <a href="#" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
+                      <div class="position-center-center" style="margin-top: 60px"> <a href="#" class="btn">became an advertiser</a></div>
+                    </div>
+                  </div>
+                  <div class="txt-sec">
+                    <h5><a href="companies-detail.html">The Best Technology </a></h5>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Comapany List -->
+              <li class="mix  freelancer agency">
+                <div class="com-inside">
+                  <div class="img-sec"> <img src="images/company-img-7.jpg" class="img-responsive" alt="" >
+                    <div class="hover-over">
+                      <div class="position-center-center"> <a href="#" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
+                      <div class="position-center-center" style="margin-top: 60px"> <a href="#" class="btn">became an advertiser</a></div>
+                    </div>
+                  </div>
+                  <div class="txt-sec">
+                    <h5><a href="companies-detail.html"> Webicode </a></h5>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Comapany List -->
+              <li class="mix companies  info-tech   agency">
+                <div class="com-inside">
+                  <div class="img-sec"> <img src="images/company-img-8.jpg" class="img-responsive" alt="" >
+                    <div class="hover-over">
+                      <div class="position-center-center"> <a href="#" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
+                      <div class="position-center-center" style="margin-top: 60px"> <a href="#" class="btn">became an advertiser</a></div>
+                    </div>
+                  </div>
+                  <div class="txt-sec">
+                    <h5><a href="companies-detail.html"> M_Adnan </a></h5>
+                  </div>
+                </div>
+              </li>
+              <!-- Comapany List -->
+              <li class="mix   info-tech indiviual  ">
+                <div class="com-inside">
+                  <div class="img-sec"> <img src="images/company-img-2.jpg" class="img-responsive" alt="" >
+                    <div class="hover-over">
+                      <div class="position-center-center"> <a href="#" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
+                      <div class="position-center-center" style="margin-top: 60px"> <a href="#" class="btn">became an advertiser</a></div>
+                    </div>
+                  </div>
+                  <div class="txt-sec">
+                    <h5><a href="companies-detail.html"> Webicode </a></h5>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Comapany List -->
+              <li class="mix info-tech indiviual freelancer agency">
+                <div class="com-inside">
+                  <div class="img-sec"> <img src="images/company-img-6.jpg" class="img-responsive" alt="" >
+                    <div class="hover-over">
+                      <div class="position-center-center"> <a href="#" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
+                      <div class="position-center-center" style="margin-top: 60px"> <a href="#" class="btn">became an advertiser</a></div>
+                    </div>
+                  </div>
+                  <div class="txt-sec">
+                    <h5><a href="companies-detail.html">The Best Technology </a></h5>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Comapany List -->
+              <li class="mix  freelancer agency">
+                <div class="com-inside">
+                  <div class="img-sec"> <img src="images/company-img-7.jpg" class="img-responsive" alt="" >
+                    <div class="hover-over">
+                      <div class="position-center-center"> <a href="#" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
+                      <div class="position-center-center" style="margin-top: 60px"> <a href="#" class="btn">became an advertiser</a></div>
+                    </div>
+                  </div>
+                  <div class="txt-sec">
+                    <h5><a href="companies-detail.html"> Webicode </a></h5>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Comapany List -->
+              <li class="mix companies  info-tech   agency">
+                <div class="com-inside">
+                  <div class="img-sec"> <img src="images/company-img-8.jpg" class="img-responsive" alt="" >
+                    <div class="hover-over">
+                      <div class="position-center-center"> <a href="#" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
+                      <div class="position-center-center" style="margin-top: 60px"> <a href="#" class="btn">became an advertiser</a></div>
+                    </div>
+                  </div>
+                  <div class="txt-sec">
+                    <h5><a href="companies-detail.html"> M_Adnan </a></h5>
+                  </div>
+                </div>
+              </li>
+              <!-- Comapany List -->
+              <li class="mix   info-tech indiviual  ">
+                <div class="com-inside">
+                  <div class="img-sec"> <img src="images/company-img-2.jpg" class="img-responsive" alt="" >
+                    <div class="hover-over">
+                      <div class="position-center-center"> <a href="#" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
+                      <div class="position-center-center" style="margin-top: 60px"> <a href="#" class="btn">became an advertiser</a></div>
+                    </div>
+                  </div>
+                  <div class="txt-sec">
+                    <h5><a href="companies-detail.html"> Webicode </a></h5>
+                  </div>
+                </div>
+              </li>
+              <!-- Comapany List -->
+              <li class="mix companies coporate info-tech indiviual freelancer agency">
+                <div class="com-inside">
+                  <div class="img-sec"> <img src="images/company-img-3.jpg" class="img-responsive" alt="" >
+                    <div class="hover-over">
+                      <div class="position-center-center"> <a href="#" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
+                      <div class="position-center-center" style="margin-top: 60px"> <a href="#" class="btn">became an advertiser</a></div>
+                    </div>
+                  </div>
+                  <div class="txt-sec">
+                    <h5><a href="companies-detail.html"> M_Adnan </a></h5>
+                  </div>
+                </div>
+              </li>
+              <!-- Comapany List -->
+              <li class="mix companies coporate info-tech indiviual freelancer agency">
+                <div class="com-inside">
+                  <div class="img-sec"> <img src="images/company-img-4.jpg" class="img-responsive" alt="" >
+                    <div class="hover-over">
+                      <div class="position-center-center"> <a href="#" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
+                      <div class="position-center-center" style="margin-top: 60px"> <a href="#" class="btn">became an advertiser</a></div>
+                    </div>
+                  </div>
+                  <div class="txt-sec">
+                    <h5><a href="companies-detail.html"> Daddy 4 Web </a></h5>
+                  </div>
+                </div>
+              </li>
+              <!-- Comapany List -->
+              <li class="mix companies coporate  agency">
+                <div class="com-inside">
+                  <div class="img-sec"> <img src="images/company-img-1.jpg" class="img-responsive" alt="" >
+                    <div class="hover-over">
+                      <div class="position-center-center"> <a href="#" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
+                      <div class="position-center-center" style="margin-top: 60px"> <a href="#" class="btn">became an advertiser</a></div>
+                    </div>
+                  </div>
+                  <div class="txt-sec">
+                    <h5><a href="companies-detail.html">The Best Technology </a></h5>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Comapany List -->
+              <li class="mix companies coporate info-tech">
+                <div class="com-inside">
+                  <div class="img-sec"> <img src="images/company-img-3.jpg" class="img-responsive" alt="" >
+                    <div class="hover-over">
+                      <div class="position-center-center"> <a href="#" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
+                      <div class="position-center-center" style="margin-top: 60px"> <a href="#" class="btn">became an advertiser</a></div>
+                    </div>
+                  </div>
+                  <div class="txt-sec">
+                    <h5><a href="companies-detail.html"> Daddy 4 Web </a></h5>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Comapany List -->
+              <li class="mix companies coporate info-tech indiviual freelancer agency">
+                <div class="com-inside">
+                  <div class="img-sec"> <img src="images/company-img-6.jpg" class="img-responsive" alt="" >
+                    <div class="hover-over">
+                      <div class="position-center-center"> <a href="#" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
+                      <div class="position-center-center" style="margin-top: 60px"> <a href="#" class="btn">became an advertiser</a></div>
+                    </div>
+                  </div>
+                  <div class="txt-sec">
+                    <h5><a href="companies-detail.html">The Best Technology </a></h5>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Comapany List -->
+              <li class="mix companies  info-tech indiviual freelancer ">
+                <div class="com-inside">
+                  <div class="img-sec"> <img src="images/company-img-5.jpg" class="img-responsive" alt="" >
+                    <div class="hover-over">
+                      <div class="position-center-center"> <a href="#" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
+                      <div class="position-center-center" style="margin-top: 60px"> <a href="#" class="btn">became an advertiser</a></div>
+                    </div>
+                  </div>
+                  <div class="txt-sec">
+                    <h5><a href="companies-detail.html"> Webicode </a></h5>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Comapany List -->
+              <li class="mix companies coporate info-tech indiviual freelancer agency">
+                <div class="com-inside">
+                  <div class="img-sec"> <img src="images/company-img-8.jpg" class="img-responsive" alt="" >
+                    <div class="hover-over">
+                      <div class="position-center-center"> <a href="#" class="btn">Follow</a> <a href="companies-detail.html" class="btn">Details</a> </div>
+                      <div class="position-center-center" style="margin-top: 60px"> <a href="#" class="btn">became an advertiser</a></div>
+                    </div>
+                  </div>
+                  <div class="txt-sec">
+                    <h5><a href="companies-detail.html"> M_Adnan </a></h5>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="clearfix"></div>
+            
+            <!-- Btn Center -->
+            <div class="btn-center margin-top-30 margin-bottom-100 text-center"> <a href="#." class="btn btn-inverse">View More</a> </div>
+          </section>
+        </div>
+      </section>
+    </main>
+    
+    <!-- ABOUT -->
+    <section class="bg-white"> 
+      <!-- Right Background -->
+      <div class="main-page-section half_left_layout">
+        <div class="main-half-layout half_right_layout"> </div>
+        
+        <!-- Left Content -->
+        <div class="main-half-layout-container half_right_layout">
+          <div class="about-us-con">
+            <h3>Collaborate on a project</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nibh dolor, efficitur eget pharetra ac, cursus sed sapien. Cras posuere ligula ut blandit varius. </p>
+            <ul class="count-info row">
+              <li class="col"> <span class="counter">5000</span><span>+</span>
+                <p>Collaboration</p>
+              </li>
+              <li class="col"> <span class="counter">750</span><span>+</span>
+                <p>Projects</p>
+              </li>
+            </ul>
+            <a href="#." class="btn">Find a Jobs</a> </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </section>
+  </div>
+  
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="footer-wrapper"> 
+      
+      <!-- Footer Top -->
+      <div class="footer-top">
+        <div class="footer-top-wrapper">
+          <div class="container">
+            <div class="row"> 
+              <!-- About Block -->
+              <div class="col-md-4">
+                <div class="block block-companies">
+                  <h3 class="block-title">Latest Companies</h3>
+                  <div class="block-content">
+                    <ul>
+                      <li> <a href="#."> <img src="images/company-img-1.jpg" alt="" class="img-responsive"> Webicode</a></li>
+                      <li> <a href="#."> <img src="images/company-img-2.jpg" alt="" class="img-responsive"> Webicode</a></li>
+                      <li> <a href="#."> <img src="images/company-img-3.jpg" alt="" class="img-responsive"> Webicode</a></li>
+                      <li> <a href="#."> <img src="images/company-img-4.jpg" alt="" class="img-responsive"> Webicode</a></li>
+                      <li> <a href="#."> <img src="images/company-img-5.jpg" alt="" class="img-responsive"> Webicode</a></li>
+                      <li> <a href="#."> <img src="images/company-img-6.jpg" alt="" class="img-responsive"> Webicode</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Footer Links Block -->
+              <div class="col-md-4">
+                <div class="block block-links">
+                  <h3 class="block-title"><span>Usefull Links</span></h3>
+                  <div class="block-content">
+                    <ul>
+                      <li><a href="#.">Theme Features</a></li>
+                      <li><a href="#.">Page Builder</a></li>
+                      <li><a href="#.">Privacy Policy</a></li>
+                      <li><a href="#.">Shop Rules</a></li>
+                      <li><a href="#.">Services</a></li>
+                      <li><a href="#.">Gallery Layout</a></li>
+                      <li><a href="#.">Theme Features</a></li>
+                      <li><a href="#.">Page Builder</a></li>
+                      <li><a href="#.">Privacy Policy</a></li>
+                      <li><a href="#.">Shop Rules</a></li>
+                      <li><a href="#.">Services</a></li>
+                      <li><a href="#.">Gallery Layout</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Twitter Widget Block -->
+              <div class="col-md-4">
+                <div class="block block-twitter-widget">
+                  <h3 class="block-title"><span>Twitter Widget</span></h3>
+                  <div class="block-content">
+                    <div class="twitter-item">
+                      <div class="twitter-content"> Looking for an awesome CREATIVE WordPress Theme? Esquise was updated and optimized to run even better. Find it here: <a href="https://webicode.com/" target="_blank">https://webicode.com/</a> </div>
+                      <div class="twitter-context"> <i class="fa fa-twitter"></i><span class="twitter-date">01 day ago</span> </div>
+                    </div>
+                    <div class="twitter-item">
+                      <div class="twitter-content"> It is a long established fact that a reader will be distracted by the readable . Find it here: <a href="https://webicode.com/" target="_blank">https://webicode.com/</a> </div>
+                      <div class="twitter-context"> <i class="fa fa-twitter"></i><span class="twitter-date">02 days ago</span> </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <div class="footer-bottom-wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 copyright">
+                <p>&copy; 2019 HTML5 Template. DESIGNED BY <a href="https://webicode.com/"> WEBICODE</a></p>
+              </div>
+              <div class="col-md-6 social-links">
+                <ul class="right">
+                  <li><a href="#."><i class="fab fa-facebook"></i></a></li>
+                  <li><a href="#."><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#."><i class="fab fa-dribbble"></i></a></li>
+                  <li><a href="#."><i class="fab fa-behance"></i></a></li>
+                  <li><a href="#."><i class="fab fa-pinterest"></i></a></li>
+                  <li><a href="#."><i class="fab fa-google-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Footer Bottom --> 
+    </div>
+  </footer>
+  <!-- End Footer --> 
+  
+</div>
+<script src="js/jquery-1.11.3.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/own-menu.js"></script> 
+<script src="js/jquery.counterup.min.js"></script> 
+<script src="js/owl.carousel.min.js"></script> 
+<script src="js/jquery.mixitup.min.js"></script> 
+<script src="js/main.js"></script>
+</body>
+
+<!-- Mirrored from demos.webicode.com/html/social-net/companies.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 May 2019 22:51:53 GMT -->
+</html>
